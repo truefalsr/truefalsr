@@ -1,0 +1,6 @@
+<?php
+
+define('DATA_NUMBER_LIMIT_FIVE', 5);
+$value = 1;
+
+if (<span>false !== ($value > DATA_NUMBER_LIMIT_FIVE)</span>) {
