@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    background: #f5f5f5;
 }
 ol, ul {
     list-style: none;
@@ -53,11 +54,11 @@ button {
 
 .startBtn {
     background-color:#44c767;
-    -moz-border-radius:9px;
-    -webkit-border-radius:9px;
-    border-radius:9px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
     border:1px solid #18ab29;
-    display:inline-block;
+    display: inline-block;
     cursor:pointer;
     color:#ffffff;
     font-family:Arial;
@@ -65,6 +66,7 @@ button {
     padding:16px 31px;
     text-decoration:none;
     text-shadow:0px 1px 0px #2f6627;
+    margin: 100px auto;
 }
 .startBtn:hover {
     background-color:#5cbf2a;
@@ -72,4 +74,19 @@ button {
 .startBtn:active {
     position:relative;
     top:1px;
+}
+
+#tf {
+    width: 500px;
+    height: 400px;
+    margin: 30px auto 0 auto;
+    background: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+    text-align: center;
+    vertical-align: middle;
+    display: none;
 }
