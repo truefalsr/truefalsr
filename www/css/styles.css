@@ -80,13 +80,24 @@ button {
     width: 500px;
     height: 400px;
     margin: 30px auto 0 auto;
+    padding: 1px;
     background: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
     0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+#tf-code {
+    margin: 10px;
+    padding: 20px;
+    background-color: floralwhite;
+    position: relative;
+    white-space: pre;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 
 .overlay {
     text-align: center;
     vertical-align: middle;
     display: none;
+
 }
