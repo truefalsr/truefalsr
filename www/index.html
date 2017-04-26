@@ -8,7 +8,8 @@
     <meta name="description" content="TrueFalser - evaluate your code evaluation skills">
     <meta name="author" content="TrueFalsr">
 
-    <link rel="stylesheet" href="css/styles.css?v=1.1">
+    <link rel="stylesheet" href="css/styles.css?v=1.2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
 
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -28,11 +29,14 @@ if (false !== $noValue) {
         <button class="startBtn">Start Evaluating</button>
     </div>
     <div id="tf-controls">
-        <button id="leftBtn" onclick="alert(1);">Left</button>
-        <button id="rightBtn">Right</button>
+        <button id="leftBtn" class="tf-button" onclick="alert(1);"></button>
+        <button id="rightBtn" class="tf-button"></button>
     </div>
 </section>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
 <script src="js/scripts.js"></script>
+
 </body>
 </html>

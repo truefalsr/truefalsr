@@ -1,5 +1,11 @@
 tf = {
+  nextChallenge: function() {
 
+  },
+  challenges: [
+      '<?php $a = true;',
+      '<?php $b = null;'
+  ]
 };
 document.addEventListener("DOMContentLoaded", function(event) {
     document.onkeydown = function(e) {
@@ -12,4 +18,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 break
         }
     }
+    hljs.highlightBlock(document.getElementById('tf-code'));
 });
